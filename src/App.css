@@ -24,6 +24,10 @@ body {
   list-style: none;
   display: flex;
 }
+.dropdownlist-item{
+  white-space: nowrap;
+  
+}
 .sidebar-container {
   width: 230px;
   padding: 20px;
@@ -656,11 +660,15 @@ sup {
 }
 .dropdownlist-item{
   padding-left: 8px;
-  color: #5a5c69;
-}
+  color: #777a85;
+ }
+ .dropdown-link-btn:hover{
+   text-decoration: none;
+ }
 .dropdownlist-item:hover{
   background-color: #dfdfdf;
   border-radius: 5px;
+  text-decoration: none;
 }
 .button-container{
   display: flex;
@@ -1172,7 +1180,7 @@ sup {
   width: 50%;
 }
 .animation-footer{
-  margin-top: 160px;
+  margin-top: 330px;
 }
 .cards-footer{
   margin-top: 200px;
@@ -1210,4 +1218,218 @@ sup {
   white-space: nowrap;
   color:#fff;
   transform: rotate(-30deg);
+}
+.notfound-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notfound-container h1:nth-child(1){
+  font-size: 120px;
+  color: #6e6f74;
+  margin-bottom: 0px;
+}
+.notfound-container p:nth-child(2){
+  font-size: 18px;
+  color: #4b4b4d;
+}
+.notfound-container p:nth-child(3){
+  font-size: 16px;
+  color: #858796;
+  margin-top: 25px;
+  margin-bottom: 3px;
+}
+.notfound-footer{
+  margin-top: 39%;
+}
+.login-checkbox{
+  display: flex;
+  gap: 4px;
+}
+.login-checkbox input:nth-child(1){
+  margin-top: 5px;
+}
+.login-checkbox label:nth-child(2){
+  font-size: .8rem;
+  color: #78797e;
+  margin-bottom: 18px;
+}
+.email-password-container{
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  gap: 5px;
+}
+.email-password-container input:nth-child(1){
+  margin-bottom: 18px;
+}
+.email-password-container input:nth-child(2){
+  margin-bottom: 18px;
+}
+.loginbtn-google-facebook{
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  white-space: nowrap;
+  gap:10px;
+}
+.forgot-create-account{
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  gap:5px;
+  align-items: center;
+}
+.welcome-container{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.email-password-container input{
+  border: 1px solid #d1d3e2;
+  background: none;
+  border-radius: 10rem;
+  padding: 15px 220px 15px 15px;
+  font-size: .8rem;
+}
+.email-password-container input:focus{
+  outline: solid 3px #9fd6f0;
+  opacity: 0.5;
+}
+.login-btn-dash{
+  border: none;
+  background: #4e73df;
+  color:#fff;
+  text-align: center;
+  border-radius: 10rem;
+  font-size: .8rem;
+  padding: 13px 178px;
+}
+.login-btn-dash:hover{
+  background: #4e6dca;;
+}
+.login-btn-dash:focus{
+  outline: none;
+}
+.loginbtn-google-facebook button{
+ border: none;
+}
+.loginbtn-google-facebook button:focus{
+  outline: none;
+}
+.loginbtn-google-facebook button:nth-child(1){
+  background:#be2617;
+  color:#fff;
+  font-size: .8rem;
+  padding:13px 128px;
+  border-radius: 10rem;
+}
+.loginbtn-google-facebook button:nth-child(1):hover{
+  background:#c94134;
+}
+.loginbtn-google-facebook button i{
+  margin-right: 10px;
+}
+.loginbtn-google-facebook button:nth-child(2){
+  background:#3b5998;
+  color:#fff;
+  font-size: .8rem;
+  padding:13px 128px;
+  border-radius: 10rem;
+}
+.loginbtn-google-facebook button:nth-child(2):hover{
+  background:#2e4896;
+}
+.login-form-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+.login-container{
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px;
+}
+.first-last-names{
+  display: flex;
+  gap: 10px;
+}
+.first-last-names input:nth-child(1n){
+  padding-right: 100px;
+}
+.email-container{
+  display: flex;
+}
+.email-container input{
+  padding-right: 370px;
+}
+.password-container{
+  display: flex;
+  gap: 10px;
+}
+.password-container input{
+  padding-right: 100px;
+}
+.login-btn-dash-con{
+  border: none;
+  background: #4e73df;
+  color:#fff;
+  text-align: center;
+  border-radius: 10rem;
+  font-size: .8rem;
+  padding: 13px 220px;
+}
+.registerbtn-google-facebook{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.registerbtn-google-facebook button{
+  border: none;
+ }
+ .registerbtn-google-facebook button:focus{
+   outline: none;
+ }
+ .registerbtn-google-facebook button:nth-child(1){
+   background:#be2617;
+   color:#fff;
+   font-size: .8rem;
+   padding:13px 200px;
+   border-radius: 10rem;
+ }
+ .registerbtn-google-facebook button:nth-child(1):hover{
+   background:#c94134;
+ }
+ .registerbtn-google-facebook button i{
+   margin-right: 10px;
+ }
+ .registerbtn-google-facebook button:nth-child(2){
+  background:#3b5998;
+  color:#fff;
+  font-size: .8rem;
+  padding:13px 128px;
+  border-radius: 10rem;
+}
+.registerbtn-google-facebook button:nth-child(2):hover{
+  background:#2e4896;
+}
+.forgot-btn-dash{
+  border: none;
+  background: #4e73df;
+  color:#fff;
+  text-align: center;
+  border-radius: 10rem;
+  font-size: .8rem;
+  padding: 13px 150px;
+}
+.forgot-btn-dash:focus{
+  outline: none;
+}
+.forgot-content{
+  font-size: 16px;
+  width: 300px;
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  color: #5a5c69;
 }
